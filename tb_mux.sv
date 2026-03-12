@@ -24,11 +24,11 @@ endgenerate
 
 initial begin
 
-  // Valores bonitos para as entradas
-  a = 32'hDEAD_BEEF;  // Valor clássico de "dead beef"
-  b = 32'hCAFEBABE;  // "Cafe Babe" (muito conhecido no mundo da programação)
-  c = 32'hBADD_C0DE;  // Um código ruim, mas bonito
-  d = 32'hFACE_CAFE;  // Outra combinação popular, "Face Cafe"
+ 
+  a = 32'hDEAD_BEEF;  
+  b = 32'hCAFEBABE; 
+  c = 32'hBADD_C0DE; 
+  d = 32'hFACE_CAFE;  
   
   $monitor($time," sel2=%b sel1=%b muxOut=%h",sel2,sel1,muxOut);
 
@@ -48,5 +48,6 @@ initial begin
   $stop;
 
 end
+
 
 endmodule
